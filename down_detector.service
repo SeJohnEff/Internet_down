@@ -1,0 +1,14 @@
+[Unit]
+Description=Down Detector
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/YOURUSER/down_detector.py
+WorkingDirectory=/home/YOURUSER
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=YOURUSER
+
+[Install]
+WantedBy=multi-user.target
