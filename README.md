@@ -58,5 +58,5 @@ User=YOURUSER
 ```sudo reboot```
 
 - Testing:
-Once Pi has rebooted, confirm that it creates down_log.txt. Disconnect your router, wait for a minute and confirm that you get a mail
+Once Pi has rebooted, confirm that it creates down_log.txt. Disconnect your router, wait for a minute, connect it again and confirm that you get a mail. You can check down_log.txt for possible errors.
 
