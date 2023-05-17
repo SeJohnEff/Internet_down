@@ -1,3 +1,7 @@
+"""
+This Python file is licensed under the Creative Commons CC0 1.0 Universal License.
+You may obtain a copy of the license at https://creativecommons.org/publicdomain/zero/1.0/
+"""
 import time
 import ping3
 import smtplib
