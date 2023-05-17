@@ -2,7 +2,7 @@
 Simple down detector for Internet
 This is a simplified version for someone wanting to know the startus of your Internet connectivity.
 It can assist you when communicating with your ISP.
-Internet_down will send you an email when internet is restored after an interruption.
+Detection is done by pinging 8.8.8.8 and a timeout is considered as interruption. Internet_down will send you an email when internet is restored after an interruption.
 - Time stamp on when interrupted and when restored
 - Duration of interruption
 - Resolution i 1 minuted (easily modified)
