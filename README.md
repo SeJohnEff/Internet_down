@@ -51,12 +51,12 @@ StandardError=inherit,
 Restart=always, 
 User=YOURUSER
 
-- Reboot
+- Enable the service & Reboot
 
+```sudo systemctl enable down_detector.service```
 
 ```sudo reboot```
 
 - Testing:
 Once Pi has rebooted, confirm that it creates down_log.txt. Disconnect your router, wait for a minute and confirm that you get a mail
 
-``````
