@@ -1,3 +1,4 @@
+# This service is licensed under the Creative Commons CC0 1.0 Universal License.
 [Unit]
 Description=Down Detector
 After=network.target
